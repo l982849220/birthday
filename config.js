@@ -8,10 +8,10 @@ var config = {
         "今天是你的生日",
         "这是我们在一起的",
         "第一个生日了哦",
-        "今年要吃好的喽哦",
-        "要把我家可爱喂饱饱",
-        "然后抱走",
-        "YAMI~~",
+        "希望你想要的都拥有",
+        "得不到的都释怀",
+        "多喜乐",
+        "长安宁",
     ],
     /**
      * imgs 可以不填, 但是如果要填写的话必须遵循下面的格式
@@ -24,6 +24,10 @@ var config = {
      */
     imgs: {
         "心爱的小可爱": "./imgs/xiaokeai.png",
+         "拥有": "./imgs/xiaokeai.png",
+        "释怀": "./imgs/xiaokeai.png",
+        "多喜乐": "./imgs/xiaokeai.png",
+         "长安宁": "./imgs/xiaokeai.png",
         // "今天是你的生日": "./imgs/birthday.jpg",
     },
     // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
@@ -35,6 +39,6 @@ var config = {
         cake_fadein: "蛋糕？",
         light_candle: "蜡烛？",
         wish_message: "生日快乐",
-        story: "A MESSAGE FOR YOU",
+        story: "祝福",
     }
 };
