@@ -40,9 +40,35 @@ $('document').ready(function(){
 		$('body').css('backgroud-color','#FFF');
 		$('body').addClass('peach-after');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
+			$('#play2').fadeIn('slow');
+		});
+	});
+	
+	
+	
+	$('#play2').click(function(){
+		var audio1 = $('.song')[0];
+        audio1.pause();
+        audio1.load();
+		var audio = $('.song2')[0];
+        audio.play();
+        $('#bulb_yellow').addClass('bulb-glow-yellow-after');
+		$('#bulb_red').addClass('bulb-glow-red-after');
+		$('#bulb_blue').addClass('bulb-glow-blue-after');
+		$('#bulb_green').addClass('bulb-glow-green-after');
+		$('#bulb_pink').addClass('bulb-glow-pink-after');
+		$('#bulb_orange').addClass('bulb-glow-orange-after');
+		$('body').css('backgroud-color','#FFF');
+		$('body').addClass('peach-after');
+		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#bannar_coming').fadeIn('slow');
 		});
 	});
+	
+	
+	
+	
+	
 
 	$('#bannar_coming').click(function(){
 		$('.bannar').addClass('bannar-come');
