@@ -35,11 +35,11 @@ var config = {
         turn_on: "开始",
         play: "音乐",
         play2: "搞错了，换一首",
-        bannar_coming: "颜色",
-        balloons_flying: "好像少点东西",
+        bannar_coming: "彩带",
+        balloons_flying: "气球",
         cake_fadein: "蛋糕？",
-        light_candle: "蜡烛？",
-        wish_message: "生日快乐",
+        light_candle: "点蜡烛",
+        wish_message: "生日快乐，许个愿吧",
         story: "祝福",
     }
 };
