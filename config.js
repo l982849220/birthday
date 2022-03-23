@@ -24,8 +24,8 @@ var config = {
      */
     imgs: {
         "心爱的小可爱": "./xiaokeai.png",
-         "拥有": "./xiaokeai.png",
-        "释怀": "./xiaokeai.png",
+         "今天是你的生日": "./xiaokeai.png",
+        "希望你想要的都拥有": "./xiaokeai.png",
         "多喜乐": "./xiaokeai.png",
          "长安宁": "./xiaokeai.png",
         // "今天是你的生日": "./imgs/birthday.jpg",
