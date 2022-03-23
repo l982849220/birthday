@@ -23,11 +23,11 @@ var config = {
      * Tip: 图片最好用正方形or接近正方形, 看起来效果更好
      */
     imgs: {
-        "心爱的小可爱": "./imgs/xiaokeai.png",
-         "拥有": "./imgs/xiaokeai.png",
-        "释怀": "./imgs/xiaokeai.png",
-        "多喜乐": "./imgs/xiaokeai.png",
-         "长安宁": "./imgs/xiaokeai.png",
+        "心爱的小可爱": "./xiaokeai.png",
+         "拥有": "./xiaokeai.png",
+        "释怀": "./xiaokeai.png",
+        "多喜乐": "./xiaokeai.png",
+         "长安宁": "./xiaokeai.png",
         // "今天是你的生日": "./imgs/birthday.jpg",
     },
     // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
